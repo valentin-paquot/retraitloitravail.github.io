@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<!-- saved from url=(0203)http://limelight.cedexis.com/node2/20bmin.html?rnd=1-10036-0-0-20-eH5fzK37-_CgJqMRASGBgiBQgBELROKKTMp4sPMI7W7rsFOI7W7rsFQK7su_ECShEIAxC7ARi4pQIgACjOj4CgBFAAWgoIABAAGAAgACgAYABqE2J1dHRvbjYuYW1zLmh2LnByb2Q -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Custom Node ID Test Object</title>
+</head>
+<body>
+<script>
+(function(){var d,a;a=/rnd=(\d+)-(\d+)-(\d+)-(\d+)-(\d+)/.exec(location.search);var e=a[1],f=a[2],g=a[3],h=a[4],k=a[5],b,c;b=function(l,a){var b={source:"uni",s:l,p:{z:g,c:h,i:k},r:{z:e,c:f}};"undefined"!==typeof a&&(b.node_id=a);parent.postMessage(JSON.stringify(b),"*")};d=function(a,b){return Math.floor(Math.random()*(b-a+1))+a};a=function(a){var b,c=[];for(b=0;b<a;b++)c.push("abcdefghijklmnopqrstuvwxyz".charAt(d(0,25)));return c.join("")};"undefined"===typeof XMLHttpRequest||"undefined"===typeof btoa||
+"undefined"===typeof encodeURIComponent?b("e"):(c=new XMLHttpRequest,b("l"),c.open("GET","/img/20/r20.gif?rnd="+a(32),!0),c.setRequestHeader("X-LDebug","1"),c.onreadystatechange=function(){if(4===this.readyState){if(200===this.status){var a=this.getAllResponseHeaders().match(/x-cache:.*$/img);if(a&&0<a.length){b("s",encodeURIComponent(btoa(a.join("|"))));return}}b("e")}},c.send())})();
+</script>
+
+
+</body></html>
